@@ -1,0 +1,1 @@
+REVOKE ALL ON FUNCTION public.validate_coupon(uuid, text) FROM PUBLIC, anon, authenticated;

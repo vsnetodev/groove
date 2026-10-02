@@ -1,0 +1,2 @@
+REVOKE ALL ON FUNCTION public.purchase_tickets(uuid, jsonb, text, text, text, text) FROM PUBLIC, anon, authenticated;
+DROP FUNCTION IF EXISTS public.purchase_tickets(uuid, jsonb, text, text, text, text);
